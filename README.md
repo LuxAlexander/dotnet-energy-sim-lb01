@@ -213,7 +213,6 @@ dotnet-energy-sim-lb01/
 │       └── CsvExporter.cs            # CSV-Export
 ├── data/                             # CSV-Ausgabe
 ├── screenshots/                      # Screenshots
-├── HANDOFF.md                        # Übergabedoku für KI-Agenten
 └── docs/development-journal/
     └── alexander-lux.md              # Entwicklungsjournal
 ```

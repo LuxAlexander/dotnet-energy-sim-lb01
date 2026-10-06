@@ -31,7 +31,7 @@ Optionale Tags bei Relevanz:
 ## 2026-10-05 – Zwei gefundene Modellfehler
 
 - **Done:** Bug Fixes: Außentemperatur Zuweisung (per Step).Außerdem Sommer-Hitzewelle von +8 auf +12 °C angehoben
-- **KI:**
+- **KI:** keine
 - **Artefact:** `Devices/PvFaultModel.cs`, `README.md`.
 - **Test:** Summer-Start `2026-07-15`, drei Läufe: Außentemperatur nun 22,4–38,3 °C über den Tag (vorher konstant 12,0) und über beide Läufe identisch; Maximalwerte der Modultemperatur 70,2 °C und 78,5 °C, mit Fehlerzeilen. Wetter bleibt zufallsabhängig, deshalb trifft der Schutz nicht in jedem Lauf auf.
 - **Comment:**
