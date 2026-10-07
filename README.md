@@ -183,7 +183,7 @@ wirklich angefasst wurden (z. B. `diff;rows=20;written=4`).
 
 - **CSV:** `data/pv-simulation.csv` – 15 Spalten, u. a. Datum, Jahreszeit, Wetter,
   Einstrahlung, Leistung, Tages- und Gesamtenergie, Temperaturen, Netzspannung,
-  Verschmutzung, Alterung, Fehlerursache. Wird laufend geschrieben, geht bei Abbruch nichts verloren.
+  Verschmutzung, Alterung, Fehlerursache.
 - **Screenshots:** `screenshots/`
 
 ## Projektstruktur

@@ -81,6 +81,7 @@ public sealed class SimulationEngine
                 _csv.WriteRow(_clock.Now, _mode, _pv);
                 _pv.ResetDailyEnergy();
                 _lastCsvHours = 0.0;
+                //_clock.Now.TimeOfDay.TotalHours either change the varaible or the meaning to Time:Hours
                 SetNotification($"Neuer Tag · {_clock.Now:dd.MM.yyyy} · {_clock.Now.TimeOfDay.TotalHours:F1} kWh Vortag");
             }
             else if (_clock.Now.TimeOfDay.TotalHours >= _lastCsvHours + _config.StepMinutes / 60.0)
