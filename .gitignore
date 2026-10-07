@@ -6,5 +6,5 @@ obj/
 .vscode/
 .idea/
 *.swp
-*.csv
+.data/
 HANDOFF.md

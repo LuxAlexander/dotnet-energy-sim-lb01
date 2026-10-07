@@ -45,4 +45,4 @@ Optionale Tags bei Relevanz:
 - **Comment:** CSV-Flush-Intervall von 20 auf 5 Zeilen gesenkt. Verschmutzung wirkt mit 0.6 %/Tag, Alterung mit 0.04 %/Tag.
 
 - **Comment:** Bug KW Anzeige des Vortags, dynamic Link Libs, Historische Wetterdaten Österreich, config files, sharing of weather <-> time <-> PV, same with others
-    Simulation, erreichen durch IP und Port, könnte man Zeit rekursiv durch andere Simulatoren erhalten (Zeit->PV->Batterie->usw), synchronisieren every x time, gemeinsamer File, Echtzeit, 4 Simulator, Bibliotheken für Wetter (Einstrahlung)
+    Simulation, erreichen durch IP und Port, könnte man Zeit rekursiv durch andere Simulatoren erhalten (Zeit->PV->Batterie->usw), synchronisieren every x time, gemeinsamer File, Echtzeit, 4 Simulator, Bibliotheken für Wetter (Einstrahlung), Modbus Assembly, zur Uhrzeit Speed umstellen, Modbus Standard UINT16, 24H Cache, Unbekannte Zeit -> Asynchron <- Modbus Communication
